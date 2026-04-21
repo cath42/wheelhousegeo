@@ -40,7 +40,7 @@
                     <li><a href="about.html" class="nav-link active">About</a></li>
                     <li><a href="founder.html" class="nav-link">Founder</a></li>
                     <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
-                    <li><a href="#contact" class="nav-link contact-btn">Contact</a></li>
+                    <li><a href="#contact" class="nav-link contact-btn">Let's Connect</a></li>
                     <li><button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button></li>
                 </ul>
             </div>
@@ -48,10 +48,49 @@
     </header>
 
     <main>
-        <section class="page-hero">
+        <section class="about-story">
             <div class="container">
-                <h1 class="page-title">Our Philosophy</h1>
-                <p class="page-subtitle">Just as a ship's wheelhouse contains everything needed to navigate challenging waters, Wheelhouse Geoscience brings together all the expertise, technology, and experience necessary to guide your projects to successful completion. We are your command center for geoscience solutions.</p>
+                <h2 class="section-title">Our Story</h2>
+                <div class="story-content">
+                    <p>Wheelhouse Geoscience was founded on the principle that exceptional results come from bringing together the right combination of expertise, experience, and innovative thinking. Our consortium model allows us to deploy exactly the right skills for each unique project, whether working individually or as integrated teams.</p>
+
+                    <p>From our earliest days, we've focused on building long-term relationships with our clients, understanding that trust is earned through consistent delivery of high-quality work and reliable expertise. Our track record of over 90 technical evaluations since inception demonstrates our commitment to excellence across diverse project types.</p>
+
+                    <p>As the industry evolves, so do we. We've expanded our capabilities to include energy transition projects, embracing new challenges in carbon capture & sequestration, renewable natural gas, and lithium extraction while maintaining our core strengths in traditional energy sector consulting.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-philosophy">
+            <div class="container">
+                <h2 class="section-title">Our Philosophy</h2>
+                <div class="philosophy-content">
+                    <p>Just as a ship's wheelhouse contains everything needed to navigate challenging waters, Wheelhouse Geoscience brings together all the expertise, technology, and experience necessary to guide your projects to successful completion. We are your command center for geoscience solutions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="company-values">
+            <div class="container">
+                <h2 class="section-title">Our Values</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <h3>Expertise</h3>
+                        <p>Deep technical knowledge across multiple geoscience disciplines, developed through years of hands-on experience and continuous learning.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>Innovation</h3>
+                        <p>We bring an innovative mindset to every project, developing creative solutions and pioneering new approaches to complex challenges.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>Collaboration</h3>
+                        <p>Working as integrated teams with our clients, we combine our expertise with your local knowledge to achieve optimal outcomes.</p>
+                    </div>
+                    <div class="value-card">
+                        <h3>Quality</h3>
+                        <p>Attention to detail and commitment to excellence in every deliverable, ensuring our work meets the highest professional standards.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -88,43 +127,6 @@
             </div>
         </section>
 
-        <section class="company-values">
-            <div class="container">
-                <h2 class="section-title">Our Values</h2>
-                <div class="values-grid">
-                    <div class="value-card">
-                        <h3>Expertise</h3>
-                        <p>Deep technical knowledge across multiple geoscience disciplines, developed through years of hands-on experience and continuous learning.</p>
-                    </div>
-                    <div class="value-card">
-                        <h3>Innovation</h3>
-                        <p>We bring an innovative mindset to every project, developing creative solutions and pioneering new approaches to complex challenges.</p>
-                    </div>
-                    <div class="value-card">
-                        <h3>Collaboration</h3>
-                        <p>Working as integrated teams with our clients, we combine our expertise with your local knowledge to achieve optimal outcomes.</p>
-                    </div>
-                    <div class="value-card">
-                        <h3>Quality</h3>
-                        <p>Attention to detail and commitment to excellence in every deliverable, ensuring our work meets the highest professional standards.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="about-story">
-            <div class="container">
-                <h2 class="section-title">Our Story</h2>
-                <div class="story-content">
-                    <p>Wheelhouse Geoscience was founded on the principle that exceptional results come from bringing together the right combination of expertise, experience, and innovative thinking. Our consortium model allows us to deploy exactly the right skills for each unique project, whether working individually or as integrated teams.</p>
-                    
-                    <p>From our earliest days, we've focused on building long-term relationships with our clients, understanding that trust is earned through consistent delivery of high-quality work and reliable expertise. Our track record of over 90 technical evaluations since inception demonstrates our commitment to excellence across diverse project types.</p>
-                    
-                    <p>As the industry evolves, so do we. We've expanded our capabilities to include energy transition projects, embracing new challenges in carbon capture & sequestration, renewable natural gas, and lithium extraction while maintaining our core strengths in traditional energy sector consulting.</p>
-                </div>
-            </div>
-        </section>
-
         <section class="cta-section">
             <div class="container">
                 <h2>Experience the Wheelhouse Difference</h2>
@@ -135,16 +137,46 @@
 
         <section id="contact" class="contact">
             <div class="container">
-                <h2 class="section-title">Contact Us</h2>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <h3>Email</h3>
-                        <a href="mailto:info@wheelhousegeo.com">info@wheelhousegeo.com</a>
+                <h2 class="section-title">Let's Connect</h2>
+                <p class="section-subtitle">Tell us about your project or question — we'll get back to you shortly.</p>
+
+                <form class="connect-form" action="https://formsubmit.co/info@wheelhousegeo.com" method="POST">
+                    <input type="hidden" name="_subject" value="New inquiry from wheelhousegeo.com">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+
+                    <div class="form-row">
+                        <div>
+                            <label for="cf-name">Name <span class="required">*</span></label>
+                            <input id="cf-name" type="text" name="Name" required>
+                        </div>
+                        <div>
+                            <label for="cf-company">Company</label>
+                            <input id="cf-company" type="text" name="Company">
+                        </div>
                     </div>
-                    <div class="contact-item">
-                        <h3>Phone</h3>
-                        <a href="tel:+12142405832">(214) 240-5832</a>
+
+                    <div class="form-row">
+                        <div>
+                            <label for="cf-email">Email <span class="required">*</span></label>
+                            <input id="cf-email" type="email" name="Email" required>
+                        </div>
+                        <div>
+                            <label for="cf-phone">Phone</label>
+                            <input id="cf-phone" type="tel" name="Phone">
+                        </div>
                     </div>
+
+                    <div>
+                        <label for="cf-message">Project details or questions <span class="required">*</span></label>
+                        <textarea id="cf-message" name="Message" required></textarea>
+                    </div>
+
+                    <button type="submit">Send Message</button>
+                </form>
+
+                <div class="connect-direct">
+                    Prefer direct contact? Email <a href="mailto:info@wheelhousegeo.com">info@wheelhousegeo.com</a> or call <a href="tel:+12142405832">(214) 240-5832</a>.
                 </div>
             </div>
         </section>
