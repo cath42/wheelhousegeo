@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Wheelhouse Geoscience</title>
+    <meta name="description" content="Comprehensive geoscience services — geology, geophysics, engineering, geosteering, GIS/CAD, and energy transition consulting.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Wheelhouse Geoscience">
+    <meta property="og:url" content="https://wheelhousegeo.com/services.html">
+    <meta property="og:title" content="Services - Wheelhouse Geoscience">
+    <meta property="og:description" content="Comprehensive geoscience solutions across multiple disciplines.">
+    <meta property="og:image" content="https://wheelhousegeo.com/newassets/Logo-Tagline_TransparentBackground.png">
+    <meta property="og:image:alt" content="Wheelhouse Geoscience logo">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Services - Wheelhouse Geoscience">
+    <meta name="twitter:description" content="Comprehensive geoscience solutions across multiple disciplines.">
+    <meta name="twitter:image" content="https://wheelhousegeo.com/newassets/Logo-Tagline_TransparentBackground.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <a href="index.html"><img src="newassets/Logo_NoText.png" alt="Wheelhouse Geoscience" class="logo-img"></a>
+                </div>
+                
+                <!-- Hamburger Menu Button -->
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="services.html" class="nav-link active">Services</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="founder.html" class="nav-link">Founder</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link contact-btn">Contact</a></li>
+                    <li><button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">🌙</button></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-title">Our Services</h1>
+                <p class="page-subtitle">Comprehensive geoscience solutions across multiple disciplines</p>
+            </div>
+        </section>
+
+        <section class="services-interactive">
+            <div class="container">
+                <div class="services-layout">
+                    <div class="services-menu">
+                        <div class="service-menu-item active" data-target="geology">
+                            <div class="menu-icon">🏔️</div>
+                            <h3>Geology</h3>
+                            <p>Reservoir characterization & analysis</p>
+                        </div>
+                        <div class="service-menu-item" data-target="geophysics">
+                            <div class="menu-icon">📊</div>
+                            <h3>Geophysics</h3>
+                            <p>Seismic interpretation & modeling</p>
+                        </div>
+                        <div class="service-menu-item" data-target="engineering">
+                            <div class="menu-icon">⚙️</div>
+                            <h3>Engineering</h3>
+                            <p>Wellbore planning & execution</p>
+                        </div>
+                        <div class="service-menu-item" data-target="specialized">
+                            <div class="menu-icon">🎯</div>
+                            <h3>Specialized Services</h3>
+                            <p>Geosteering & energy transition</p>
+                        </div>
+                        <div class="service-menu-item" data-target="gis-cad">
+                            <div class="menu-icon">🗺️</div>
+                            <h3>GIS | CAD</h3>
+                            <p>Mapping & visualization</p>
+                        </div>
+                    </div>
+                    
+                    <div class="services-details">
+                        <div id="geology" class="service-detail active">
+                            <h2>Geology</h2>
+                            <p>Our geological expertise encompasses comprehensive reservoir characterization, structural analysis, and stratigraphic interpretation. We provide detailed geological assessments that form the foundation for successful project outcomes.</p>
+                            <ul>
+                                <li>Reservoir characterization and modeling</li>
+                                <li>Structural geology and fault analysis</li>
+                                <li>Stratigraphic correlation and interpretation</li>
+                                <li>Petrophysical analysis</li>
+                                <li>Regional geological studies</li>
+                            </ul>
+                        </div>
+
+                        <div id="geophysics" class="service-detail">
+                            <h2>Geophysics</h2>
+                            <p>Advanced geophysical interpretation and seismic analysis to unlock subsurface insights. Our team leverages cutting-edge technology and proven methodologies to deliver accurate subsurface characterization.</p>
+                            <ul>
+                                <li>Seismic interpretation and analysis</li>
+                                <li>3D/4D seismic modeling</li>
+                                <li>Gravity and magnetic surveys</li>
+                                <li>Well log analysis and correlation</li>
+                                <li>Integrated geophysical studies</li>
+                            </ul>
+                        </div>
+
+                        <div id="engineering" class="service-detail">
+                            <h2>Engineering</h2>
+                            <p>From cradle to grave wellbore planning and execution, our engineering services ensure optimal project performance and risk mitigation throughout the entire lifecycle.</p>
+                            <ul>
+                                <li>Wellbore planning and execution</li>
+                                <li>Play fairway analysis</li>
+                                <li>Geologic prognoses</li>
+                                <li>Operations geology</li>
+                                <li>Casing point election assessment</li>
+                                <li>Post-mortem and reservoir modeling</li>
+                            </ul>
+                        </div>
+
+                        <div id="specialized" class="service-detail">
+                            <h2>Specialized Services</h2>
+                            <p>Our specialized services include advanced geosteering capabilities and innovative solutions for complex technical challenges, including energy transition projects.</p>
+                            <ul>
+                                <li>Advanced geosteering and horizontal drilling <a href="#" class="learn-more-link">Learn more</a></li>
+                                <li>Retroactive batch geosteering</li>
+                                <li>Carbon capture & sequestration (CCS)</li>
+                                <li>Renewable natural gas (RNG) projects</li>
+                                <li>Lithium extraction consulting</li>
+                                <li>Custom technical solutions</li>
+                            </ul>
+                        </div>
+
+                        <div id="gis-cad" class="service-detail">
+                            <h2>GIS | CAD</h2>
+                            <p>Geographic information systems and computer-aided design services that provide spatial analysis, mapping, and technical visualization solutions for complex projects.</p>
+                            <ul>
+                                <li>GIS mapping and spatial analysis</li>
+                                <li>CAD drafting and technical drawings</li>
+                                <li>3D modeling and visualization</li>
+                                <li>Database management and integration</li>
+                                <li>Custom mapping solutions</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="service-highlights">
+            <div class="container">
+                <h2 class="section-title">Key Service Areas</h2>
+                <div class="highlights-grid">
+                    <div class="highlight-card">
+                        <h3>Technical Evaluations</h3>
+                        <p>Full scope buyer-side and seller-side technical evaluations: geologic and engineering due diligence; asset valuation; risking; upside characterization and vetting; exhibit preparation. Over 90 evaluations since inception.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Wellbore Planning</h3>
+                        <p>Cradle to grave wellbore planning and execution: play fairway analysis; geologic prognoses; operations geology; casing point election assessment; post-mortem and reservoir modeling refinement.</p>
+                    </div>
+                    <div class="highlight-card">
+                        <h3>Geosteering Excellence</h3>
+                        <p>We plan and geosteer horizontals, with experience in complex geologic environments. Our industry-best geosteering guru pioneered 'retroactive batch geosteering' to enhance reservoir characterization.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <h2>Ready to Start Your Project?</h2>
+                <p>Contact us today to discuss how our expertise can drive your project's success.</p>
+                <a href="#contact" class="btn-primary">Get In Touch</a>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h3>Email</h3>
+                        <a href="mailto:info@wheelhousegeo.com">info@wheelhousegeo.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Phone</h3>
+                        <a href="tel:+12142405832">(214) 240-5832</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="logo/Wheelhouse Geoscience FF-01.svg" alt="Wheelhouse Geoscience" class="footer-logo-img">
+                </div>
+                <div class="footer-links">
+                    <a href="services.html">Services</a>
+                    <a href="about.html">About</a>
+                    <a href="founder.html">Founder</a>
+                    <a href="portfolio.html">Portfolio</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Wheelhouse Geoscience. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Theme toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeToggle = document.getElementById('theme-toggle');
+            const currentTheme = localStorage.getItem('theme') || 'dark';
+            
+            // Set initial theme
+            document.documentElement.setAttribute('data-theme', currentTheme);
+            themeToggle.textContent = currentTheme === 'dark' ? '☀️' : '🌙';
+            
+            themeToggle.addEventListener('click', function() {
+                const currentTheme = document.documentElement.getAttribute('data-theme');
+                const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                
+                document.documentElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+                this.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+            });
+            
+            // Hamburger menu functionality
+            const hamburger = document.getElementById('hamburger');
+            const navMenu = document.getElementById('nav-menu');
+            
+            hamburger.addEventListener('click', function() {
+                hamburger.classList.toggle('active');
+                navMenu.classList.toggle('active');
+                
+                // Prevent body scroll when menu is open
+                document.body.classList.toggle('nav-open');
+            });
+            
+            // Close menu when clicking on nav links (for mobile)
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => {
+                link.addEventListener('click', function() {
+                    hamburger.classList.remove('active');
+                    navMenu.classList.remove('active');
+                    document.body.classList.remove('nav-open');
+                });
+            });
+            
+            // Close menu when clicking outside
+            document.addEventListener('click', function(event) {
+                const isClickInsideNav = navMenu.contains(event.target) || hamburger.contains(event.target);
+                if (!isClickInsideNav && navMenu.classList.contains('active')) {
+                    hamburger.classList.remove('active');
+                    navMenu.classList.remove('active');
+                    document.body.classList.remove('nav-open');
+                }
+            });
+            
+            // Interactive service sections
+            const menuItems = document.querySelectorAll('.service-menu-item');
+            const details = document.querySelectorAll('.service-detail');
+            
+            menuItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    const target = this.getAttribute('data-target');
+                    
+                    // Remove active class from all menu items
+                    menuItems.forEach(menuItem => menuItem.classList.remove('active'));
+                    
+                    // Add active class to clicked item
+                    this.classList.add('active');
+                    
+                    // Hide all details
+                    details.forEach(detail => detail.classList.remove('active'));
+                    
+                    // Show target detail
+                    document.getElementById(target).classList.add('active');
+                });
+            });
+        });
+    </script>
+</body>
+</html>
